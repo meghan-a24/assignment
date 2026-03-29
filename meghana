@@ -1,0 +1,10 @@
+public class meghana {
+    public static void main(String args[]){
+        System.out.println("hello");
+        System.out.println("my name  is meghana");
+        System.out.println("iam from nzb");
+        System.out.println("iam pursuing btech 3rd yr");
+        System.out.print("In kits clg");
+        System.out.println("thank you");
+    }
+}
