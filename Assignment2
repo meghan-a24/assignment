@@ -1,0 +1,13 @@
+public class studentinfo{
+    public static void main(String[] args){
+    String name="meghana";
+    int age=19;
+    double percentage=7.55;
+    boolean ishosteler=ture;
+    char section='B';
+    System.out.println("name:"+name);
+    System.out.println("age:"+age);
+    System.out.println("percentage:"+percentage+"%");
+    System.out.println("Ishstl:"+ishosteler);
+    System.out.println("sec:"+section);
+    }}
