@@ -1,10 +1,10 @@
-public cl meghana {
+public class meghana {
     public static void main(String args[]){
-        System.out.println("hello");
-        System.out.println("my name  is meghana");
-        System.out.println("iam from nzb");
-        System.out.println("iam pursuing btech 3rd yr");
+        System.out.print("hello");
+        System.out.print("my name  is meghana");
+        System.out.print("iam from nzb");
+        System.out.print("iam pursuing btech 3rd yr");
         System.out.print("In kits clg");
-        System.out.println("thank you");
+        System.out.print("thank you");
     }
 }
