@@ -1,6 +1,6 @@
 public class methods{
     public  static void add(int a,int b,int c){
-        int sum=a+b+c;p
+        int sum=a+b+c;
         System.out.println("sum:"+sum);
     }
 public  static void multiplication(int a,int b){

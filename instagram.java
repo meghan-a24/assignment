@@ -13,11 +13,11 @@ public static void checkpassword(int enteredpassword){
                     }}
                    public static void addfollower(int follower){
 followers=followers+follower;
-System.out.println("added successful.New follower:"+followers);
+System.out.println("added successfully.New follower:"+followers);
                    }
                    public static void removefollower(int follower){
                   followers=followers-follower;
-                  System.out.println("removed successful.newfollower:"+followers);
+                  System.out.println("removed successfully.newfollower:"+followers);
                    }  
                    public static void setnewpassword(int newpassword){
                     password=newpassword;
