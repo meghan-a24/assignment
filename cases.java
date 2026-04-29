@@ -1,4 +1,4 @@
-public class cases{
+ublic class cases{
     public static void main(String[] args)
     {
         String name1="meghana";
