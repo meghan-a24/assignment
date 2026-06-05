@@ -21,3 +21,7 @@ public class studentinfo{
     System.out.println("year:"+year);
     System.out.println("phn no.:"+phnnumber);
     }}
+
+
+
+
