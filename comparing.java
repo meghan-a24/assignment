@@ -1,4 +1,4 @@
-public class comparingstring{
+public class comparing{
     public static void main(String[]args)
     {
         String name="meghana";
