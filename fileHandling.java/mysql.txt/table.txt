@@ -1,0 +1,38 @@
+CREATE DATABASE meghana;
+use meghana;
+CREATE TABLE  std_info( 
+NAME    VARCHAR (20),
+AGE      INT (4),
+COURSE    VARCHAR(6),
+MARKS     INT (7),
+EMAIL     VARCHAR(20),
+CITY      VARCHAR(25)
+);
+
+select *from std_info;
+
+ALTER TABLE std_info
+add  column GENDER varchar(8);
+
+ALTER TABLE std_info
+add column std_info_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY FIRST;
+
+ALTER TABLE std_info
+add column  PHONE_NUMBER varchar(10) AFTER NAME;
+
+ALTER TABLE std_info
+add column GRADE CHAR(2) DEFAULT 'F';
+
+DESC std_info;
+
+insert into std_info(std_info_id,name,age,course,email,city,gender,phone_number,grade)values
+(1,'meghana',20,'cse','meghana@gmail.com','NZB','female','939298060','A'),
+(2,'sahasthra',20,'cse','laddu@gmail.com','NZB','female','976543395','A'),
+(3,'malini',21,'ece','malini@gmail.com','HYD','female','987543223','B' );
+
+delete from std_info where std_info_id=3;
+
+update std_info set grade='B' where std_info_id=2;
+
+ALTER TABLE std_info
+DROP column PHONE_NUMBER;
